@@ -7,7 +7,7 @@ export default function Team() {
     {
       name: 'Khalid Nawaz',
       title: 'Chief Executive Officer (CEO)',
-      bio: 'Visionary leader with 35+ years of experience in logistics and transportation. Khalid founded M Ashar Enterprises with a commitment to excellence and reliability.',
+      bio: 'Visionary leader with 25+ years of experience in logistics and transportation. Khalid founded M Ashar Enterprises with a commitment to excellence and reliability.',
       image: '/images/team/khalid-nawaz.png',
       isCEO: true,
     },
