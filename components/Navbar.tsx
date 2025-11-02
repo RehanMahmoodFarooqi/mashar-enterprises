@@ -82,7 +82,7 @@ export default function Navbar() {
               About
             </Link>
             <Link href="/team" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
-              Team
+              Message
             </Link>
             <Link href="/services" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               Services
