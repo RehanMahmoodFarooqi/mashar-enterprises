@@ -10,15 +10,9 @@ const nextConfig: NextConfig = {
         destination: "https://masharenterprises.com/:path*",
         permanent: true,
       },
-      // Optional: Force HTTPS for root domain
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "masharenterprises.com" }],
-        destination: "https://masharenterprises.com/:path*",
-        permanent: true,
-      },
     ];
   },
+  // Optional: other Next.js settings can go below if needed
 };
 
 export default nextConfig;
