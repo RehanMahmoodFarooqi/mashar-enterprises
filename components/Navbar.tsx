@@ -7,12 +7,14 @@ import { useState } from 'react';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleLinkClick = () => setIsOpen(false); // ✅ Close menu on link click
+
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2" onClick={handleLinkClick}>
             <Image
               src="/logo.png"
               alt="M Ashar Enterprises Logo"
@@ -73,30 +75,31 @@ export default function Navbar() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden pb-4 space-y-2">
-            <Link href="/" className="block text-gray-700 hover:text-orange-600 py-2">
+            <Link href="/" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               Home
             </Link>
-            <Link href="/about" className="block text-gray-700 hover:text-orange-600 py-2">
+            <Link href="/about" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               About
             </Link>
-            <Link href="/services" className="block text-gray-700 hover:text-orange-600 py-2">
+            <Link href="/services" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               Services
             </Link>
-            <Link href="/fleet" className="block text-gray-700 hover:text-orange-600 py-2">
+            <Link href="/fleet" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               Fleet
             </Link>
-            <Link href="/team" className="block text-gray-700 hover:text-orange-600 py-2">
+            <Link href="/team" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               Team
             </Link>
-            <Link href="/announcements" className="block text-gray-700 hover:text-orange-600 py-2">
+            <Link href="/announcements" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               News
             </Link>
-            <Link href="/contact" className="block text-gray-700 hover:text-orange-600 py-2">
+            <Link href="/contact" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               Contact
             </Link>
             <Link
               href="/contact"
               className="block bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition text-center mt-4"
+              onClick={handleLinkClick}
             >
               Get in Touch
             </Link>
@@ -106,4 +109,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
