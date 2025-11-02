@@ -145,7 +145,7 @@ export default function Contact() {
                   </Link>
 
                   {/* WhatsApp Icon (Green) */}
-                  <Link href="https://wa.me/923295416926" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://wa.me/923092556555" target="_blank" rel="noopener noreferrer">
                     <div className="text-green-500 hover:text-green-700 transition-colors duration-300">
                       <FaWhatsapp size={48} />
                     </div>

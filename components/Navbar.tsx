@@ -81,14 +81,14 @@ export default function Navbar() {
             <Link href="/about" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               About
             </Link>
+            <Link href="/team" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
+              Team
+            </Link>
             <Link href="/services" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               Services
             </Link>
             <Link href="/fleet" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               Fleet
-            </Link>
-            <Link href="/team" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
-              Team
             </Link>
             <Link href="/announcements" className="block text-gray-700 hover:text-orange-600 py-2" onClick={handleLinkClick}>
               News
