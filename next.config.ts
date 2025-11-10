@@ -11,6 +11,13 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/",
+        has: [{ type: "host", value: "admin.masharenterprises.com" }],
+        destination: "https://masharenterprises.com/admin",
+        permanent: true,
+      },
+      // Keep admin subdomain working for deeper routes like /admin/login etc.
+      {
         source: "/:path*",
         has: [{ type: "host", value: "admin.masharenterprises.com" }],
         destination: "https://masharenterprises.com/admin/:path*",
