@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
       {
         source: "/:path*",
         has: [{ type: "host", value: "admin.masharenterprises.com" }],
-        destination: "https://masharenterprises.com/admin:path*",
+        destination: "https://masharenterprises.com/admin/:path*",
         permanent: true,
       },
     ];
