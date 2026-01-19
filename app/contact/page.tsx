@@ -145,7 +145,11 @@ export default function Contact() {
                   </Link>
 
                   {/* WhatsApp Icon (Green) */}
+<<<<<<< HEAD
                   <Link href="https://wa.me/923092556555" target="_blank" rel="noopener noreferrer">
+=======
+                  <Link href="https://wa.me/923118278655" target="_blank" rel="noopener noreferrer">
+>>>>>>> a9f047a4f2bdf5870758d36c616f4c157408d189
                     <div className="text-green-500 hover:text-green-700 transition-colors duration-300">
                       <FaWhatsapp size={48} />
                     </div>
@@ -163,7 +167,11 @@ export default function Contact() {
                 <div className="bg-gray-50 p-8 rounded-lg">
                   <h3 className="text-2xl font-bold text-orange-600 mb-4">Phone</h3>
                   <p className="text-gray-700 text-lg mb-2">
+<<<<<<< HEAD
                     <a href="tel:+123-456-7890" className="hover:text-orange-600 transition">+92 309 2556555 (Whatsapp)</a>
+=======
+                    <a href="tel:+123-456-7890" className="hover:text-orange-600 transition">+92 311 8278655 (Whatsapp)</a>
+>>>>>>> a9f047a4f2bdf5870758d36c616f4c157408d189
                   </p>
                   <p className="text-gray-700 text-lg">
                     <a href="tel:021-32356555" className="hover:text-orange-600 transition">021-32356555</a>
