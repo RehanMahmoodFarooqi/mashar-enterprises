@@ -148,11 +148,10 @@ export default function Footer() {
               </svg>
             </a>
             <a
-<<<<<<< HEAD
+
               href="https://wa.me/923092556555"
-=======
-              href="https://wa.me/923118278655"
->>>>>>> a9f047a4f2bdf5870758d36c616f4c157408d189
+
+
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-orange-500 transition"
